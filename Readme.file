@@ -1,0 +1,22 @@
+# 2D Motion Visualization from 3D Motion Capture (C3D) Data
+
+## Overview
+This task demonstrates how to convert 3D motion capture data (in C3D format) into a 2D visualisation using Python. The task includes a video demonstration of the 2D motion extracted from the provided C3D file `0038_Ankle_01.c3d`.
+
+## Project Structure
+- `task2.py`: The main Python script that processes the C3D file and generates a 2D motion video.
+- `0038_Ankle_01.c3d`: Sample C3D file used for the motion data.
+- `2d_motion_video.mp4`: Video output (C3D file).
+
+## Setup
+
+### Prerequisites
+- Python 3.8
+- Anaconda (for managing dependencies)
+
+### Install Dependencies
+First, I have created a conda environment and install the required packages:
+```bash
+conda create -n ezc3d_env python=3.8
+conda activate ezc3d_env
+conda install -c conda-forge ezc3d opencv matplotlib numpy
